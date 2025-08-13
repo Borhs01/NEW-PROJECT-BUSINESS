@@ -207,6 +207,7 @@ body {
   margin-top: -28rem;
   display: flex;
   color: var(--color-white);
+  border-bottom: 1px solid var(--color-grey-light-1);
 }
 
 .footer__opening {
@@ -316,6 +317,14 @@ body {
   font-weight: 700;
   margin-left: -5rem;
   cursor: pointer;
+}
+
+.final {
+  font-size: 1.2rem;
+  background-color: var(--color-grey-dark-2);
+  color: var(--color-grey-light-1);
+  text-align: center;
+  padding: 2rem;
 }
 
 .section__goal {
