@@ -1,0 +1,38 @@
+.members {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 5rem;
+  &__image {
+    &__description {
+        position: relative;
+    }
+    &__icon {
+      height: 28rem;
+      width: 25rem;
+      border-radius: .5rem;
+      margin-bottom: 1rem;
+    }
+    &__svgs {
+        position: absolute;
+        bottom: 7%;
+        right: 5%;
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-grey-light-1);
+    }
+    &__text {
+        color: var(--color-grey-dark-2);
+      &-H {
+        font-size: 1.7rem;
+      }
+      &-P {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

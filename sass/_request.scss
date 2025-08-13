@@ -1,0 +1,61 @@
+.section__request {
+  padding: 5rem 5rem 5rem 10rem;
+}
+.request {
+  display: flex;
+  border: 1px solid #F0F1EC;
+  border-radius: 1rem;
+  &__content {
+    flex: 1;
+    padding: 2rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    
+  }
+  &__image {
+    &__bar {
+      flex: 0 0 46%;
+      height: 40rem;
+      width: 45rem;
+      border-radius: 0rem 1rem 1rem 0rem;
+    }
+  }
+  &__input {
+    width: 45%;
+    font-family: inherit;
+    padding: 1.2rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #F0F1EC;
+    outline: none;
+
+    &__subject {
+      width: 91%;
+      font-family: inherit;
+      padding: 1.2rem 2rem;
+      border: none;
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+      background-color: #F0F1EC;
+       outline: none;
+    }
+  }
+  &__textarea {
+    width: 91%;
+      font-family: inherit;
+      padding: 3rem 2rem;
+      border: none;
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+      background-color: #F0F1EC;
+       outline: none;
+  }
+  &__submit {
+    display: block;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-grey-dark-2);
+    color: var(--color-grey-light-1);
+  }
+}

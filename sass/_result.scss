@@ -1,0 +1,93 @@
+.section__result{
+    padding: 5rem 5rem;
+}
+.result{
+    &__headings{
+        margin-bottom: 4rem;
+    }
+    &__svg{
+        background-color: var(--color-grey-light-1);
+        padding: .5rem;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: -5%;
+        top: -10%;
+        box-shadow: 1rem 2rem 1rem rgba(0, 0, 0, 0.1);
+    }
+    &__image{
+        display: flex;
+        justify-content: space-between;
+
+
+        &__left{
+            flex: 0 0 50%;
+            margin-right: 2rem;
+            position: relative;
+        }
+        &__right{
+            flex: 1;
+            position: relative;
+        }
+        &__icon{
+            height: 30rem;
+            width: 100%;
+        }
+        &__text{
+            position: absolute;
+            padding: 2rem;
+            border-radius: 1rem;
+            width: 35rem;
+            bottom: 2%;
+            left: 1%;
+            background-color: var(--color-grey-light-1);
+
+            &-H{
+                font-size: 1.8rem;
+                line-height: 1.3;
+                margin-bottom: .5rem;
+                color: var(--color-grey-dark-2);
+            }
+            &-P{
+                font-size: 1.2rem;
+                color: var(--color-grey-dark-2);
+            }
+        }
+    }
+    &__horizontal{
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: var(--color-grey-dark-2);
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        &::before,
+        &::after{
+            content: "";
+            flex: 1;
+            border-bottom: 2px solid var(--color-grey-dark-2);
+        }
+        &:not(:empty)::before{
+            margin-right: 2rem;
+        }
+        &:not(:empty)::after{
+            margin-left: 2rem;
+        }
+    }
+    &__client{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        padding: 0 10rem;
+
+        &__logo-po{
+            height: 7rem;
+            width: 9rem;
+        }
+    }
+}

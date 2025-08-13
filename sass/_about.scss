@@ -1,0 +1,124 @@
+.section__about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10rem 10rem;
+    font-size: inherit;
+    color: var(--color-grey-dark-2);
+    font-family: inherit;
+}
+.about {
+
+    &__images{
+        flex: 0 0 50%;
+        margin-right: 5rem;
+        position: relative;
+    }
+    &__image--2{
+        border-radius: 2rem;
+        background-color: var(--color-grey-dark-2);
+        position: absolute;
+        top: 10%;
+        left: -10%;
+        width: 13rem;
+        height: 13rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        color: var(--color-white);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__image-text{
+        font-size: 1rem;
+        font-weight: 700;
+        margin-top: .5rem;
+    }
+    &__image--3{
+        position: absolute;
+        bottom: 10%;
+        right: -2%;
+        background-color: var(--color-white);
+        border-radius: 1rem;
+    }
+    &__image-big{
+        width: 50rem;
+        height: 45rem;
+    }
+    &__image-medium{
+        width: 20rem;
+        height: 20rem;
+        padding: .5rem;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+    &__image-small{
+        font-size: 3.5rem;
+    }
+    &__content{
+        flex: 1;
+    }
+    &__heading{
+        color: var(--color-grey-dark-2);
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+
+    &__main__heading{
+        color: var(--color-grey-dark-2);
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        line-height: normal;
+
+    }
+    &__text{
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    &__list{
+        margin: 2rem;
+    }
+    &__item{
+        margin-bottom: .7rem;
+    }
+    &__bottom{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__icon{
+        margin-right: 1rem;
+        background-color: var(--color-grey-dark-2);
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    &__call-us{ 
+        font-size: 1.4rem;
+    }
+    &__calls{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    &__phone{
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--color-grey-dark-2);
+    }
+
+    &__sign{
+        font-size: medium;
+        font-family: inherit;
+    }
+    
+}
+.inline {
+    display: inline-block;
+}

@@ -1,0 +1,29 @@
+.section__blog{
+    padding: 5rem;
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    &__content{
+
+        &__sub{
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            color: var(--color-grey-dark-2);
+        }
+        &__main{
+            font-size: 2.2rem;
+            line-height: 1.2;
+            margin-bottom: 4rem;
+            max-width: 27rem;
+            color: var(--color-grey-dark-2);
+        }
+        &__image{
+            height: 25rem;
+            width: 35rem;
+            border-radius: .5rem;
+        }
+    }
+}

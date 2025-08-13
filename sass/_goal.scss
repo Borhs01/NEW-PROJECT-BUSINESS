@@ -1,0 +1,98 @@
+.section__goal{
+     display: flex;
+     padding: 0 0 2rem;
+
+}
+.goal{
+
+    &__content{
+        flex: 0 0 55%;
+        padding: 5rem;
+        
+        margin-right: 3rem;
+    }
+    &__headings{
+        margin-bottom: 3rem;
+    }
+    &__text{
+
+        &__image{
+            display: flex;
+        }
+        &__heading{
+            color: var(--color-grey-dark-2);
+            margin-bottom: 1rem;
+        }
+        &__paragraph{
+            margin-bottom: 2rem;
+            color: var(--color-grey-dark-2);
+            font-size: 1.4rem;
+        }
+    }
+    &__images{
+        height: 2rem;
+        width: 2rem;
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        &__text{
+            font-size: 1.5rem;
+            color: var(--color-grey-light-1);
+            text-decoration: none;
+            background-color: var(--color-grey-dark-2);
+            padding: 1rem 3rem;
+            border-radius: 1rem;
+            margin: 2rem;
+            margin-left: 0;
+        }
+        &__image{
+            background-color: #F0F1EC;
+            border: 1px solid #2A4B5F;
+            height: 4rem;
+            width: 4rem;
+            border-radius: 50%;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    &__image{
+        flex: 1;
+        position: relative;
+        &__img--1{
+            height: 90%;
+            width: 70%;
+            border-radius: 1rem;
+        }
+        &__img--2{
+            height: 30rem;
+            width: 24rem;
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+        &__main{
+            margin-top: 3rem;
+        }
+        &__small{
+            position: absolute;
+            top: 21%;
+            left: -10%;
+            background-color: var(--color-white);
+            border-radius: 1rem;
+            overflow: hidden; // Ensures child content does not overflow the rounded corners
+        }
+    }
+    &__images__tab{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        margin-right: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background-color: #F0F1EC;
+    }
+}
